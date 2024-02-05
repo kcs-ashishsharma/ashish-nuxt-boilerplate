@@ -1,0 +1,13 @@
+.main-wrapper{
+    height: 1000px;
+}
+.main {
+    margin-left: 337px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .main {
+        margin-left: 0;
+    }
+}

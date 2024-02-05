@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: $font-family;
+}
+
+.sidebar {
+    margin: 0;
+    width: 335px;
+    background-color: $backgroundColor;
+    border: 1px solid $border;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    .brand-logo {
+        text-align: center;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 33px 20px 33px;
+        border-bottom: 1px solid $border;
+        height: 40px;
+        img {
+            height: 60px;
+        }
+    }
+    .menu{
+        padding: 30px 33px 5px 33px;
+    }
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sidebar a.router-link-active {
+    background-color: $button;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.sidebar a:hover:not(.router-link-active) {
+    background-color: #c7c7c773;
+    color: #04aa6d;
+    border-radius: 8px;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
