@@ -1,4 +1,26 @@
+
+@import url("./common.scss");
 @import url("./_login.scss");
 @import url("./sidebar.scss");
 @import url("./_home.scss");
 @import url("./_top-nav.scss");
+@import url("./table.scss");
+@import url("./_input-filed.scss");
+@import url("./card.scss");
+@import url("./_button.scss");
+@import url("./users.scss");
+
+.wrapper {
+    height: 100vh;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "sidebar header"
+        "sidebar content";
+    position: relative;
+    width: 100%;
+    display: grid;
+}
+.breadcrumb-item{
+    text-decoration: none;
+}

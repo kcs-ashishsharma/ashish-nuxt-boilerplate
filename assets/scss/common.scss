@@ -1,0 +1,15 @@
+.error{
+    color: $errorMessageColor;
+    font-size: 25px;
+    margin-left:3px;
+}
+.error-message {
+    color: $errorMessageColor;
+    font-size: 16px;
+}
+.error-input {
+  border: 2px solid $errorMessageColor !important;
+}
+.input-label{
+    margin-bottom: 7px;
+}

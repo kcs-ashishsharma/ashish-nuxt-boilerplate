@@ -1,0 +1,134 @@
+{
+  "users": [
+    {
+      "id": "5573",
+      "fname": "yashasvi",
+      "lname": "sharma",
+      "address": "pune",
+      "gender": "female",
+      "age": "1",
+      "email": "yash@gmail.com",
+      "password": "admin"
+    },
+    {
+      "fname": "meet",
+      "lname": "patel",
+      "address": "Nadiyad",
+      "gender": "male",
+      "age": "25",
+      "email": "meet@gmail.com",
+      "password": "admin",
+      "id": "4b06"
+    },
+    {
+      "fname": "mandeep",
+      "lname": "seni",
+      "address": "punjab",
+      "gender": "female",
+      "age": "24",
+      "email": "mandeep@gmail.com",
+      "password": "admin",
+      "id": "72c2"
+    },
+    {
+      "fname": "renu",
+      "lname": "sutar",
+      "address": "hariyan",
+      "gender": "female",
+      "age": "33",
+      "email": "renu@gmail.com",
+      "password": "admin",
+      "id": "48fe"
+    },
+    {
+      "fname": "virat",
+      "lname": "kohali",
+      "address": "Delihi",
+      "gender": "male",
+      "age": "35",
+      "email": "virat@gmail.com",
+      "password": "admin",
+      "id": "3efe"
+    },
+    {
+      "id": "ae49",
+      "fname": "kailash",
+      "lname": "sutar",
+      "address": "Ahemdabad",
+      "gender": "male",
+      "age": "27",
+      "email": "kailash@gmail.com",
+      "password": "admin"
+    },
+    {
+      "id": "3b71",
+      "fname": "prakshesh",
+      "lname": "meheta",
+      "address": "ahemdabad",
+      "gender": "male",
+      "age": "24",
+      "email": "prakshesh@gmail.com",
+      "password": "admin"
+    },
+    {
+      "fname": "rajesh",
+      "lname": "patel",
+      "address": "",
+      "gender": "male",
+      "age": "",
+      "email": "rajesh@gmail.com",
+      "password": "admin",
+      "id": "eb85"
+    },
+    {
+      "fname": "darshika",
+      "lname": "patel",
+      "address": "",
+      "gender": "female",
+      "age": "",
+      "email": "darshika@gmail.com",
+      "password": "admin",
+      "id": "389e"
+    },
+    {
+      "fname": "rahul ",
+      "lname": "patil",
+      "address": "",
+      "gender": "female",
+      "age": "",
+      "email": "rahul@gmail.com",
+      "password": "admin",
+      "id": "e2b6"
+    },
+    {
+      "id": "6b39",
+      "fname": "sahil",
+      "lname": "patel",
+      "address": "",
+      "gender": "male",
+      "age": "",
+      "email": "sahil@gmail.com",
+      "password": "admin"
+    },
+    {
+      "fname": "virat",
+      "lname": "kohli",
+      "address": "pune",
+      "gender": "male",
+      "age": "32",
+      "email": "virat123@gmail.com",
+      "password": "admin",
+      "id": "7083"
+    },
+    {
+      "id": "6b57",
+      "fname": "ashish",
+      "lname": "sharma",
+      "address": "",
+      "gender": "male",
+      "age": "",
+      "email": "shar@gmail.com",
+      "password": "admin"
+    }
+  ]
+}

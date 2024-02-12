@@ -1,0 +1,18 @@
+ .input-field {
+     display: flex;
+     flex-direction: column;
+     padding: 15px;
+     cursor: pointer;
+     label {
+         font-size: 20px;
+     }
+
+     input,
+     select {
+         height: 45px;
+         border: 1px solid $border;
+         font-size: 19px;
+         padding: 0 15px;
+     }
+   
+ }

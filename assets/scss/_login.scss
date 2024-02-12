@@ -10,8 +10,18 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 30px;
-            margin-right: 20px;
+            flex-direction: column;
+            gap: 20px;
+            .brand{
+                display: flex;
+                align-items: center;
+            }
+            .title{
+                font-size: 24px;
+            }
+            .sub-title{
+                font-size: 16px;
+            }
             img{
                 height: 60px;
             }
@@ -21,19 +31,18 @@
         background-color: $cardBackground;
         background-color: #ffffff;
         width: 480px;
-        height: 450px;
         border: 1px solid $border;
         padding: 35px 12px;
         display: flex;
         flex-direction: column;
-        gap: 35px;
+        gap: 25px;
         border-radius: 8px;
         position: absolute;
         top: 10%;
-        .username-field, .password-field {
+        .username-field, .password-field, .input-field {
             display: flex;
             flex-direction: column;
-            padding: 0 15px;
+            padding: 0 15px 20px 15px;
             cursor: pointer;
             label {
                 font-size: 20px;
@@ -43,37 +52,158 @@
                 border: 1px solid $border;
                 font-size: 19px;
                 padding: 0 15px;
+                margin-bottom: 10px;
             }
         }
         .remeber-forgot-pass-wrapper{
             display: flex;
-            padding: 0 12px;
             font-size: 18px;
             justify-content: space-between;
             font-size: 20px;
+            margin-bottom: 25px;
+            align-items: center;
             cursor: pointer;
             .lable{
                 width: 50%;
             }
             .forgot-password{
-                text-align: right;
+                a{
+                    text-align: right;
+                    width: 50%;
+                    color: $button;
+                    font-size: inherit;
+                    text-decoration: none;
+                }
+            }
+            
+        }
+        .sign-in-cerate-account{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 12px;
+            .new-modernize-create-new-account {
+                font-size: 18px;
+                margin-top: 10px;
+               .create-new-account {
+                    color: $button;
+                    font-weight: 700;
+                    width: 100%;
+                    height: 44px;
+                    font-size: inherit;
+                    padding: 11px;
+                    border: none;
+                    text-decoration: none;
+                    background: #04aa6d14;
+                }
+                
+            }
+            .sign-button {
+                width: 30%;
+
+                button {
+                    width: 100%;
+                    height: 44px;
+                    background-color: $button;
+                    color: $buttonForntColor;
+                    border: 1px solid $button;
+                    border-radius: 4px;
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+        
+        
+    }
+
+    .register-card {
+        background-color: $cardBackground;
+        background-color: #ffffff;
+        width: 650px;
+        height: 680px;
+        border: 1px solid $border;
+        padding: 35px 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        border-radius: 8px;
+        position: absolute;
+        top: 5%;
+        .create-form{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #gender {
+            width: 295px;
+        }
+
+        .remeber-forgot-pass-wrapper {
+            display: flex;
+            padding: 0 12px;
+            font-size: 18px;
+            justify-content: space-between;
+            font-size: 20px;
+            margin-bottom: 25px;
+            align-items: center;
+            cursor: pointer;
+
+            .lable {
                 width: 50%;
-                color: $button;
+            }
+
+            .forgot-password {
+                a {
+                    text-align: right;
+                    width: 50%;
+                    color: $button;
+                    font-size: inherit;
+                    text-decoration: none;
+                }
             }
 
         }
-        .sign-button{
-            padding: 0 15px;
-            button {
-                width: 100%;
-                height: 44px;
-                background-color: $button;
-                color: $buttonForntColor;
-                border: 1px solid $button;
-                border-radius: 10px;
-                font-size: 20px;
-                cursor: pointer;
+
+        .sign-in-cerate-account {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 12px;
+
+            .new-modernize-create-new-account {
+                font-size: 18px;
+                margin-top: 10px;
+
+                .create-new-account {
+                    color: $button;
+                    font-weight: 700;
+                    width: 100%;
+                    height: 44px;
+                    font-size: inherit;
+                    padding: 11px;
+                    border: none;
+                    text-decoration: none;
+                    background: #04aa6d14;
+                }
+
+            }
+
+            .sign-button {
+                width: 30%;
+
+                button {
+                    width: 100%;
+                    height: 44px;
+                    background-color: $button;
+                    color: $buttonForntColor;
+                    border: 1px solid $button;
+                    border-radius: 4px;
+                    font-size: 20px;
+                    cursor: pointer;
+                }
             }
         }
+
+
     }
 }

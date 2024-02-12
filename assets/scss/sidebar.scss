@@ -1,14 +1,16 @@
 body {
     margin: 0;
     font-family: $font-family;
+    background-color: #f7f9fc;
 }
 
 .sidebar {
+    grid-area: sidebar;
     margin: 0;
-    width: 335px;
+    //width: 255px;
     background-color: $backgroundColor;
-    border: 1px solid $border;
-    position: fixed;
+    //border: 1px solid $border;
+    //position: fixed;
     height: 100%;
     overflow: auto;
     .brand-logo {
@@ -17,38 +19,40 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        font-weight: bold;
+        color: white;
         padding: 20px 33px 20px 33px;
-        border-bottom: 1px solid $border;
-        height: 40px;
+        //border-bottom: 1px solid $border;
+        height: 65px;
         img {
-            height: 60px;
+            height: 35px;
         }
     }
     .menu{
-        padding: 30px 33px 5px 33px;
+        margin: 20px 0;
+        //padding: 30px 33px 5px 33px;
     }
 }
 
 .sidebar a {
     display: block;
-    color: black;
+    color: #ffffff;
     padding: 16px;
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
+    margin-bottom: 12px;
 }
 
-.sidebar a.router-link-active {
+.sidebar a.active {
     background-color: $button;
     color: white;
-    border-radius: 8px;
     cursor: pointer;
     
 }
 
-.sidebar a:hover:not(.router-link-active) {
-    background-color: #c7c7c773;
-    color: #04aa6d;
+.sidebar a:hover:not(.active) {
+    color: #a5a7a8;
     border-radius: 8px;
 }
 

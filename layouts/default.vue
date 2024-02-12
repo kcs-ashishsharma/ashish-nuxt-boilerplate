@@ -1,11 +1,9 @@
 <template>
-<div>
-    <Sidebar />
-    <div class="main-wrapper">
-        <Header />
+<div class="wrapper">
+    <Header />
         <div class="main">
             <slot />
         </div>
-    </div>
+        <Sidebar />
 </div>
 </template>

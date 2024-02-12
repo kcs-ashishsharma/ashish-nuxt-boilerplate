@@ -1,0 +1,50 @@
+.users-card{
+    .create-form {
+       .input-filed {
+         flex: 1 0 300px;
+       }
+    }  
+    .sign-up-cerate-account{
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 16px;
+        margin: 40px 0;
+        .custom_button{
+            width: 150px;
+        }
+        .back_to_list{
+            background-color: $loginsBackground;
+            margin-right: 20px;
+            border-color: 1px solid $loginsBackground;
+        }
+
+    }
+}
+
+.sorting_disabled::after {
+    display: none !important;
+}
+
+.sorting_disabled {
+    cursor: default !important;
+}
+
+.sorting_disabled::before {
+    pointer-events: none !important;
+    cursor: default !important;
+    display: none !important;
+}
+
+.action::after {
+    display: none !important;
+}
+
+.action {
+    cursor: default !important;
+}
+
+.action::before {
+    pointer-events: none !important;
+    cursor: default !important;
+    display: none !important;
+}
